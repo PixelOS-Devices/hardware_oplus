@@ -15,7 +15,12 @@
  */
 
 #include <compositionengine/UdfpsExtension.h>
+
+#if __has_include(<display/drm/sde_drm.h>)
+#include <display/drm/sde_drm.h>
+#elif __has_include(<drm/sde_drm.h>)
 #include <drm/sde_drm.h>
+#endif
 
 #if __has_include(<display/drm/sde_drm.h>)
 #include <display/drm/sde_drm.h>
