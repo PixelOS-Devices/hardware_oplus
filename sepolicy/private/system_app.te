@@ -1,0 +1,5 @@
+dontaudit system_app {
+  system_suspend_control_internal_service
+  system_suspend_control_service
+  tracingproxy_service
+}:service_manager find;
