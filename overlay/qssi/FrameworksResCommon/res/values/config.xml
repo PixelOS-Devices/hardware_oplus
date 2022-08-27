@@ -5,6 +5,12 @@
 -->
 <resources>
 
+    <!-- Boolean indicating if current platform supports HFP inband ringing -->
+    <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+
+    <!-- Boolean indicating if current platform supports BLE peripheral mode -->
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+
     <!-- Flag specifying whether VoLTE should be available for carrier: independent of
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
          provisioning, availability etc -->
@@ -99,21 +105,12 @@
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
 
-    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
-    <integer-array name="config_availableColorModes">
-        <item>0</item>
-        <item>1</item>
-        <item>3</item>
-        <item>256</item>
-        <item>257</item>
-        <item>258</item>
-        <item>259</item>
-        <item>260</item>
-        <item>261</item>
-        <item>262</item>
-        <item>263</item>
-        <item>264</item>
-        <item>265</item>
+    <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. --> 
+    <integer-array name="config_availableColorModes"> 
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
+        <item>3</item> <!-- COLOR_MODE_ADAPTIVE -->
     </integer-array>
 
     <!-- Configure mobile tcp buffer sizes in the form:
@@ -203,5 +200,11 @@
     <!-- IWLAN network service package name to bind to by default. If none is specified in an overlay, an
          empty string is passed in -->
     <string name="config_wlan_network_service_package">vendor.qti.iwlan</string>
+
+    <!-- Whether device has SuperDart charging support -->
+    <bool name="config_hasSuperDartCharger">true</bool>
+
+    <!-- Path to fast charging status file to detect whether an OEM fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
 
 </resources>
