@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2021-2022 The Evolution X project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different OnePlus serires/devices.  Do not translate. -->
+<resources>
+
+    <!-- Auto HBM integers (default, min, max) -->
+    <integer-array name="auto_hbm_threshold_preference_array">
+        <item>20000</item>
+        <item>0</item>
+        <item>60000</item>
+    </integer-array>
+    <integer name="auto_hbm_threshold_preference_interval">1</integer>
+    <string name="auto_hbm_threshold_preference_default">20000</string>
+
+    <!-- Kcal RED integers (default, min, max) -->
+    <integer-array name="kcal_red_preference_array">
+        <item>256</item>
+        <item>0</item>
+        <item>256</item>
+    </integer-array>
+    <integer name="kcal_red_preference_interval">1</integer>
+
+    <!-- Kcal GREEN integers (default, min, max) -->
+    <integer-array name="kcal_green_preference_array">
+        <item>256</item>
+        <item>0</item>
+        <item>256</item>
+    </integer-array>
+    <integer name="kcal_green_preference_interval">1</integer>
+
+    <!-- Kcal BLUE integers (default, min, max) -->
+    <integer-array name="kcal_blue_preference_array">
+        <item>256</item>
+        <item>0</item>
+        <item>256</item>
+    </integer-array>
+    <integer name="kcal_blue_preference_interval">1</integer>
+
+    <!-- Kcal SATURATION integers (default, min, max) -->
+    <integer-array name="kcal_saturation_preference_array">
+        <item>255</item>
+        <item>0</item>
+        <item>255</item>
+    </integer-array>
+    <integer name="kcal_saturation_preference_interval">1</integer>
+
+    <!-- Kcal CONTRAST integers (default, min, max) -->
+    <integer-array name="kcal_contrast_preference_array">
+        <item>255</item>
+        <item>0</item>
+        <item>255</item>
+    </integer-array>
+    <integer name="kcal_contrast_preference_interval">1</integer>
+
+    <!-- Kcal HUE integers (default, min, max) -->
+    <integer-array name="kcal_hue_preference_array">
+        <item>0</item>
+        <item>0</item>
+        <item>255</item>
+    </integer-array>
+    <integer name="kcal_hue_preference_interval">1</integer>
+
+    <!-- Kcal VALUE integers (default, min, max) -->
+    <integer-array name="kcal_value_preference_array">
+        <item>255</item>
+        <item>0</item>
+        <item>255</item>
+    </integer-array>
+    <integer name="kcal_value_preference_interval">1</integer>
+
+    <!-- AdrenoBoost integers (default, min, max) -->
+    <integer-array name="adrenoboost_preference_array">
+        <item>0</item>
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+    <integer name="adrenoboost_preference_interval">1</integer>
+ 
+    <!-- Sys vibration integers (default, min, max) -->
+    <integer-array name="vibrator_strength_preference_array">
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+    <integer name="vibrator_strength_preference_interval">100</integer>
+
+    <!-- Vibration test pattern (1, 2) -->
+    <integer-array name="test_vibration_pattern">
+        <item>0</item>
+        <item>250</item>
+    </integer-array>
+</resources>

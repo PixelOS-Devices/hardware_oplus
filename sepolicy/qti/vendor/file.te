@@ -9,6 +9,7 @@ type vendor_proc_flash, fs_type, proc_type;
 type vendor_proc_fastchg_fw_update, fs_type, proc_type;
 type vendor_proc_wireless, fs_type, proc_type;
 type vendor_proc_ui_soc_decimal, fs_type, proc_type;
+type sysfs_fastcharge, fs_type, sysfs_type;
 
 # Display
 type vendor_proc_display, fs_type, proc_type;
@@ -26,6 +27,9 @@ type vendor_persist_fingerprint_file, file_type;
 type vendor_proc_eng_cali_file, fs_type, proc_type;
 type vendor_proc_oplus_als_file, fs_type, proc_type;
 type vendor_sysfs_sensor_fb, fs_type, sysfs_type;
+
+# Sync
+type sysfs_sync, fs_type, sysfs_type;
 
 # TEE
 type vendor_proc_tee_bind_core, fs_type, proc_type;
