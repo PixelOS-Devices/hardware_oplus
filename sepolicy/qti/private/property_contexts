@@ -11,6 +11,7 @@ persist.sys.display.iris.absent   u:object_r:system_oplus_iris_prop:s0
 
 # Fingerprint
 oplus.fingerprint.    u:object_r:system_fingerprint_prop:s0
+persist.sys.fp.       u:object_r:system_fingerprint_prop:s0
 
 # Logging
 persist.camera.assert.panic         u:object_r:exported_system_prop:s0
