@@ -33,7 +33,7 @@ genfscon sysfs /devices/platform/soc/soc:qcom,gpubw/devfreq                     
 genfscon sysfs /kernel/oplus_display    u:object_r:vendor_sysfs_graphics:s0
 
 # DC Dimming
-genfscon sysfs /sys/kernel/oplus_display/dimlayer_bl_en u:object_r:vendor_sysfs_dc_dim:s0
+# genfscon sysfs /sys/kernel/oplus_display/dimlayer_bl_en u:object_r:vendor_sysfs_dc_dim:s0
 
 # Extcon sysfs
 genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon                                                                                  u:object_r:sysfs_extcon:s0
