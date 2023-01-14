@@ -29,6 +29,9 @@ type vendor_sysfs_sensor_fb, fs_type, sysfs_type;
 # TEE
 type vendor_proc_tee_bind_core, fs_type, proc_type;
 
+# TOF
+type vendor_sysfs_tof, fs_type, sysfs_type;
+
 # Ultrasound
 type vendor_proc_ultrasound, fs_type, proc_type;
 
