@@ -1,1 +1,2 @@
 create_dir_file(vendor_wcnss_service, mnt_vendor_file)
+allow vendor_wcnss_service vendor_proc_oplus_version:dir r_dir_perms;
