@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi
+package co.aospa.dolby.oplus
 
 import android.media.AudioAttributes
 import android.media.AudioDeviceCallback
@@ -20,8 +20,8 @@ import androidx.preference.Preference
 import androidx.preference.Preference.OnPreferenceChangeListener
 import androidx.preference.PreferenceFragment
 import androidx.preference.SwitchPreferenceCompat
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.dlog
-import co.aospa.dolby.xiaomi.R
+import co.aospa.dolby.oplus.DolbyConstants.Companion.dlog
+import co.aospa.dolby.oplus.R
 import com.android.settingslib.widget.MainSwitchPreference
 
 class DolbySettingsFragment : PreferenceFragment(),
