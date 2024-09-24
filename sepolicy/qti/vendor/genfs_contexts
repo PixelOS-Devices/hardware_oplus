@@ -16,6 +16,7 @@ genfscon sysfs /devices/platform/soc/soc:oneplus_wlchg/power_supply       u:obje
 genfscon sysfs /devices/platform/soc/soc:oplus,chg_gki/power_supply       u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:oplus,chg_intf/oplus_chg         u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:oplus,mms_gauge/oplus_mms        u:object_r:vendor_sysfs_usb_supply:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/soc:qcom,pmic_glink:qcom,battery_charger:oplus,pm8350_charger:oplus,mms_wired/oplus_mms u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/virtual/oplus_chg                                 u:object_r:vendor_sysfs_usb_supply:s0
 
 # Display
