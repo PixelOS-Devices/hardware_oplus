@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2022-2023 The LineageOS Project
+// SPDX-FileCopyrightText: 2022-2025 The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
@@ -14,5 +14,12 @@ prebuilt_hidl_interfaces {
     name: "hidl_oplus_cameraextension_interface",
     interfaces: [
         "vendor.oplus.hardware.cameraextension@1.0::ICameraExtensionService",
+    ],
+}
+
+prebuilt_hidl_interfaces {
+    name: "hidl_pixelworks_feature_interface",
+    interfaces: [
+        "vendor.pixelworks.hardware.feature@1.0::IIrisFeature",
     ],
 }
